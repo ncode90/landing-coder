@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo512.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +24,42 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/styles/styles.css" rel="stylesheet" type="text/css">
+    <link href="assets/styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+    <!--scripts-->
+    <script type="text/javascript" src="assets/scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/all-plugins.js"></script>
+    <script type="text/javascript" src="assets/scripts/plugins-activate.js"></script>
+    <script>
+      jQuery(document).ready(function($) {
+        		"use strict";
+        		//  TESTIMONIALS CAROUSEL HOOK
+		        $('#customers-testimonials').owlCarousel({
+		            loop: true,
+		            center: true,
+		            items: 3,
+		            margin: 0,
+		            autoplay: true,
+		            dots:true,
+		            autoplayTimeout: 8500,
+		            smartSpeed: 450,
+		            responsive: {
+		              0: {
+		                items: 1
+		              },
+		              768: {
+		                items: 2
+		              },
+		              1170: {
+		                items: 3
+		              }
+		            }
+		        });
+        	});
+    </script>
+    <title>Coderhouse | Aprendé haciendo</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

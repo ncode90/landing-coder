@@ -1,0 +1,26 @@
+.onda{
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    margin-top: -100px;
+    z-index: 99999;
+}
+
+.thumbs{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.thumbs a{
+    text-decoration: none;
+}
+
+.thumbs .img-circle{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+.thumbs p{
+    margin-top: 20px;
+}
