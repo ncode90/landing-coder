@@ -10838,6 +10838,9 @@ span {
   border: 0;
 }
 
+
+
+
 #Contact{
   background: #000;
 }
@@ -10895,12 +10898,13 @@ span {
 #Contact .form-wrap .floating-label {
   position: relative;
   width: 100%;
-  display: inline-block;
+  display: block;
   margin-bottom: 30px;
 }
 
 #Contact .form-wrap .fname,
-#Contact .form-wrap .contact {
+#Contact .form-wrap .contact,
+#Contact .form-wrap .email {
   margin-right: 20px;
 }
 
@@ -10929,6 +10933,7 @@ span {
   top: 0px;
   left: 0;
   font-size: 14px;
+  width: 100%;
   text-align: left;
   color: #fff;
   transition: top 0.2s ease-in-out;
@@ -10965,4 +10970,6 @@ span {
   color: #fff;
   padding-left: 65px;
 }
+
+
 
